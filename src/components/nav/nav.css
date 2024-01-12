@@ -5,14 +5,14 @@ nav{
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    /*this makes the element to the middle*/
+    
     left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    /*https://w3schools.com/cssref/css3_pr_backdrop-filter.php*/
+    
     backdrop-filter: blur(20px);
 }
 
