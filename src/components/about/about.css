@@ -8,8 +8,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    /*This creates a diagonal stripe effect where the primary color transitions from transparent to the specified primary color and back to transparent, forming a stripe at a 45-degree angle*/
-    background: linear-gradient(
+   background: linear-gradient(
         45deg,
         transparent,
         var(--color-primary),
