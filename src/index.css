@@ -10,24 +10,15 @@
     text-decoration: none;
 }
 
-/*
-:root is a CSS pseudo-class selector that represents the root element of a document, which in most cases is the <html> element.
-Using the :root selector is useful when defining global CSS variables or custom properties that can be used throughout your entire document.
-When defining CSS variables with :root, the syntax is as follows:
-:root {                      |:root {                       |h1 {
-  --variable-name: value;    |   --primary-color: blue;     |   color: var(--primary-color);
-}                            |}                             |}
-:root is similar to the html selector, but :root has a higher specificity, which means that any styles defined with :root will override styles defined with html*/
 :root{
     --color-bg: #A0C49D;
     --color-bg-variant: #C4D7B2;
     --color-primary: #5C8984;
-    /*alpha	Defines the opacity as a number between 0.0 (fully transparent) and 1.0 (fully opaque)*/
+   
     --color-primary-variant: #7C9D96; 
     --color-white: #5C8984;
     --color-light: #3A4D39;
-    /*https://www.w3schools.com/css/css3_transitions.asp*/
-    /*https://www.impressivewebs.com/css3-transition-all/*/
+  
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -35,11 +26,11 @@ When defining CSS variables with :root, the syntax is as follows:
 }
 
 html{
-    /*The scroll-behavior property specifies whether to smoothly animate the scroll position, instead of a straight jump, when the user clicks on a link within a scrollable box.*/
+    
     scroll-behavior: smooth;
 }
 
-/*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -54,7 +45,7 @@ body{
 
 .container{
     width: var(--container-width-lg);
-    margin: 0 auto;/*horizontal center*/
+    margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5{
@@ -62,7 +53,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    /*https://blog.hubspot.com/website/css-rem#:~:text=Rem%20(short%20for%20%E2%80%9Croot%2D,1rem%20will%20also%20equal%2016px.*/
+    
     font-size: 2.5rem;
 }
 
@@ -95,17 +86,6 @@ a:hover{
 }
 
 .btn{
-/*https://stackoverflow.com/questions/51285308/how-do-min-content-and-max-content-work*/
-/*min-content:The minimum width that a content (a group of words) needs. It means width of the biggest word in the content.
-Example:
-hi this is
-biggestWordInTheContent
-<---- min-content ---->
-
-max-content:The maximum possible width that a content (a group of words) can take. It means the width of the content when all the words arranged together in one line.
-Example:
-hi this is a content without considering any line breaks.
-<---------------------- max-content ------------------->*/
 
     width: max-content;
     display: inline-block;
@@ -131,13 +111,11 @@ hi this is a content without considering any line breaks.
 img{
     display: block;
     width: 100%;
-    /*The image keeps its aspect ratio and fills the given dimension.*/
+    
     object-fit: cover;
-    /*object-fit: contain;: This value tells the browser to resize the content inside the element while preserving its aspect ratio to fit within the container without cropping. It makes sure that the entire content is visible, even if it leaves empty space within the container. 
-    object-fit: cover;: This value resizes the content to cover the entire container while maintaining its aspect ratio. It might crop parts of the content if necessary to fill the container completely. It ensures no empty spaces within the container, possibly cutting off some parts of the content to achieve a complete fill.*/
+   
 }
 
-/*https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/*/
 
 /*Medium devices*/
 @media screen and (max-width: 1024px){
