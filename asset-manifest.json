@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.2f23c862.css",
+    "main.js": "/MyPortfolio/static/js/main.2e456910.js",
+    "static/media/img.png": "/MyPortfolio/static/media/img.fec63524b9b091ed7008.png",
+    "static/media/img2.png": "/MyPortfolio/static/media/img2.8c4e187390318568b279.png",
+    "static/media/Screenshot (143).png": "/MyPortfolio/static/media/Screenshot (143).a3fe083fa55cde2e48f0.png",
+    "static/media/Screenshot (109).png": "/MyPortfolio/static/media/Screenshot (109).0fabdf27bdd47e50657b.png",
+    "static/media/RadhikaNagoriResume.pdf": "/MyPortfolio/static/media/RadhikaNagoriResume.dc3d50df45d54a6d1636.pdf",
+    "static/media/Screenshot (112).png": "/MyPortfolio/static/media/Screenshot (112).02640a9fb328419f5dc7.png",
+    "static/media/Screenshot (145).png": "/MyPortfolio/static/media/Screenshot (145).bc070abb6dd70d92d109.png",
+    "static/media/Screenshot (111).png": "/MyPortfolio/static/media/Screenshot (111).35c2ec4d2e01c14f83c9.png",
+    "static/media/Screenshot (144).png": "/MyPortfolio/static/media/Screenshot (144).d3a7ae6dd4192cb2d120.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.2f23c862.css.map": "/MyPortfolio/static/css/main.2f23c862.css.map",
+    "main.2e456910.js.map": "/MyPortfolio/static/js/main.2e456910.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f23c862.css",
+    "static/js/main.2e456910.js"
+  ]
+}
