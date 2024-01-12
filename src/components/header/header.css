@@ -1,5 +1,5 @@
 header{
-    /*height: 100vh means 100% of the viewport height, height: 100% means 100% of the parent's element height.*/
+   
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
@@ -8,16 +8,16 @@ header{
 .header__container{
     text-align: center;
     height: 100%;
-    /*https://www.w3schools.com/css/css_positioning.asp*/
+    
     position: relative;
 }
 
 .cta{
     margin-top: 2.5rem;
-    /*https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/*/
+    
     display: flex;
     gap: 1.2rem;
-    /*https://css-tricks.com/a-quick-way-to-remember-difference-between-justify-content-align-items/*/
+   
     justify-content: center;
 }
 
@@ -31,9 +31,9 @@ header{
     bottom: 3rem;
 }
 
-/*It is used for the small line drawn afte the icons.*/
+
 .header__socials::after{
-    /*https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_after*/
+   
     content: '';
     width: 1px;
     height: 2rem;
@@ -41,15 +41,15 @@ header{
 }
 
 .me{
-    /*https://www.w3schools.com/css/css3_gradients.asp*/
+   
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
-    /*50% of left is in the middle,but there is width of 22 rem,so we have to subtract half of it from left,so it would be in middle.*/
+    
     left: calc(50% - 11rem);
     margin-top: 2rem;
-    /*https://www.w3schools.com/css/css_overflow.asp*/
+  
     overflow: hidden;
     border-radius: 12rem 12rem 0 0;
     padding: 4rem 1.5rem 1.5rem 1.5rem;
@@ -59,7 +59,7 @@ header{
     position: absolute;
     right: -2.3rem;/*It will be shifted 2 rems to the left from the right edge */
     bottom: 5rem;
-    /*https://www.w3schools.com/cssref/css3_pr_transform.php*/
+   
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
